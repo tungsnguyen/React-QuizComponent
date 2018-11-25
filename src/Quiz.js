@@ -29,7 +29,7 @@ class Quiz extends Component {
     }
 
     handleResetClick() {
-
+        this.props.resetClickHandler()
     }
 }
 
